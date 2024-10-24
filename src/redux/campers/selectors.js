@@ -1,0 +1,9 @@
+export const selectCampers = (state) => state.campers.items;
+export const selectCamper = (state) => state.campers.camper;
+export const selectFilters = (state) => state.campers.filters;
+export const selectIsLoading = (state) => state.campers.isLoading;
+export const selectIsError = (state) => state.campers.isError;
+export const selectTotal = (state) => state.campers.total;
+export const selectPage = (state) => state.campers.page;
+export const selectLimit = (state) => state.campers.limit;
+export const selectFavorites = (state) => state.campers.favorites;

@@ -1,0 +1,156 @@
+.sideBar_container {
+  display: flex;
+  flex-basis: 300px;
+  max-width: 360px;
+}
+
+.sidebar h4 {
+  margin-bottom: 32px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.vehicle_equipment::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #f0f0f0;
+  margin-top: 10px;
+}
+.vehicle_type::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  border: none;
+  padding: 0 20px;
+  width: 100%;
+  height: 56px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.input_location {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.location_item {
+  width: 20px;
+  height: 20px;
+  fill: #555;
+}
+
+.input_location::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.checkboxGroup,
+.radioGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.radioGroup {
+  flex-wrap: nowrap;
+}
+
+.checkboxLabel,
+.radioLabel {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 112px;
+  height: 96px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+.checked {
+  border-color: red;
+}
+
+.customCheckbox,
+.customRadio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.customCheckbox svg,
+.customRadio svg {
+  margin-bottom: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.itemText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.checkbox,
+.radio {
+  display: none;
+}
+
+.checkboxLabel:hover,
+.radioLabel:hover {
+  border-color: #ff4757;
+}
+
+.checkbox:checked + .customCheckbox,
+.radio:checked + .customRadio {
+  border-color: red;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.searchButton,
+.resetButton {
+  background-color: #e44848;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 200px;
+  padding: 16px 50px;
+  width: 150px;
+  height: 56px;
+  text-align: center;
+}
+
+.searchButton:hover {
+  background-color: #d84343;
+}
+
+.resetButton:hover {
+  background-color: #d84343;
+}

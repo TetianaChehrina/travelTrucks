@@ -1,0 +1,17 @@
+.star_container {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  fill: #e0e0e0;
+  width: 24px;
+  height: 24px;
+}
+.filled use {
+  fill: #ffd700;
+}
+
+.unfilled use {
+  fill: #e0e0e0;
+}

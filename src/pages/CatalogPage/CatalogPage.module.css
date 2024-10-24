@@ -1,0 +1,10 @@
+.catalog_section {
+  padding: 108px 0px;
+}
+.catalog_container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 64px;
+}

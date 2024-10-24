@@ -1,0 +1,17 @@
+.logo_item {
+  width: 136px;
+  height: 15px;
+}
+@media (max-width: 768px) {
+  .logo_item {
+    width: 106px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo_item {
+    width: 90px;
+    height: 10px;
+  }
+}

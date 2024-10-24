@@ -1,0 +1,16 @@
+.book_card {
+  width: 641px;
+  height: 588px;
+  padding: 44px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  margin-top: 44px;
+}
+
+.book_title {
+  margin-bottom: 8px;
+}
+
+.book_text {
+  margin-bottom: 24px;
+}
